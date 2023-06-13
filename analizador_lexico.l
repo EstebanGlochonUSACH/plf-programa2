@@ -113,17 +113,17 @@ IGNORE_CHAR  \n|\t|.
 int main(int argc, char *argv[])
 {
     if(argc == 1){
-        printf("Error: Faltan par\u00E1metros.\n");
+        printf("Error: Faltan par metros.\n");
         printf("Uso: %s archivo_entrada archivo_salida\n", argv[0]);
         return 1;
     }
     else if(argc == 2){
-        printf("Error: Falta par\u00E1metro.\n");
+        printf("Error: Falta par metro.\n");
         printf("Uso: %s archivo_entrada archivo_salida\n", argv[0]);
         return 1;
     }
     else if(argc > 3){
-        printf("Error: Demasiados par\u00E1metros.\n");
+        printf("Error: Demasiados par metros.\n");
         printf("Uso: %s archivo_entrada archivo_salida\n", argv[0]);
         return 1;
     }
